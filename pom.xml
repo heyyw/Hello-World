@@ -22,6 +22,26 @@
                 <artifactId>kafka_2.10</artifactId>
                 <version>${kafka.versiont}</version>
             </dependency>
+
+            <!--rocketmq-->
+            <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-namesrv -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-namesrv</artifactId>
+                <version>4.0.0-incubating</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-broker -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-broker</artifactId>
+                <version>4.0.0-incubating</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-client</artifactId>
+                <version>4.0.0-incubating</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
